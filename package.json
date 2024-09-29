@@ -1,0 +1,36 @@
+{
+  "name": "youweserver",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi",
+    "deploy": "strapi deploy"
+  },
+  "dependencies": {
+    "@strapi/plugin-cloud": "4.25.11",
+    "@strapi/plugin-i18n": "4.25.11",
+    "@strapi/plugin-users-permissions": "4.25.11",
+    "@strapi/provider-upload-cloudinary": "^4.25.11",
+    "@strapi/strapi": "4.25.11",
+    "mysql": "2.18.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "5.3.4",
+    "styled-components": "5.3.3"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "6a8c39e1-7231-41cb-9199-b3ddb8c15eb7"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "footers",
+  "info": {
+    "singularName": "footer",
+    "pluralName": "footers",
+    "displayName": "Footer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true,
+      "default": "YouWe Fashion"
+    },
+    "Text": {
+      "type": "text",
+      "required": true,
+      "default": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quod odit perferendis, nobis officia fugit at non ducimus dolorem voluptates, aliquam molestiae corrupti. Tempore similique impedit hic veniam eveniet natus."
+    },
+    "ContactNum": {
+      "type": "integer",
+      "required": true,
+      "default": 7579811117
+    },
+    "Email": {
+      "type": "email",
+      "required": true,
+      "default": "Youwefashion24x7@gmail.com"
+    }
+  }
+}
